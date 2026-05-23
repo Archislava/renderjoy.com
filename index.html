@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renderjoy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">RENDERJOY</div>
+
+  <div class="lang">
+    <span data-lang="en">EN</span>
+    <span data-lang="fr">FR</span>
+    <span data-lang="es">ES</span>
+  </div>
+</header>
+
+<section class="hero">
+
+  <div class="slide active" style="background-image:url('images/hero/hero-1.jpg')"></div>
+  <div class="slide" style="background-image:url('images/hero/hero-2.jpg')"></div>
+  <div class="slide" style="background-image:url('images/hero/hero-3.jpg')"></div>
+  <div class="slide" style="background-image:url('images/hero/hero-4.jpg')"></div>
+
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1></h1>
+    <p></p>
+  </div>
+
+  <div class="arrows">
+    <button onclick="prevSlide()">‹</button>
+    <button onclick="nextSlide()">›</button>
+  </div>
+
+  <div class="dots">
+    <span onclick="showSlide(0)"></span>
+    <span onclick="showSlide(1)"></span>
+    <span onclick="showSlide(2)"></span>
+    <span onclick="showSlide(3)"></span>
+  </div>
+
+  <div class="controls">
+    <button id="playBtn" onclick="togglePlay()">❚❚</button>
+  </div>
+
+</section>
+
+<section class="section">
+  <h2 data-i18n="services"></h2>
+  <div class="grid" id="servicesGrid"></div>
+</section>
+
+<section class="section">
+  <h2 data-i18n="process"></h2>
+  <div class="process-line" id="processGrid"></div>
+</section>
+
+<section class="section">
+  <h2 data-i18n="cases"></h2>
+  <div class="grid" id="casesGrid"></div>
+</section>
+
+<section class="section">
+  <h2 data-i18n="contact"></h2>
+  <p>contact@renderjoy.com</p>
+</section>
+
+<footer class="bottombar">
+  <div class="footer-logo">RENDERJOY — STUDIO</div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="12ac06da-a7bb-461c-9b79-ae9978a41cc5";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+</body>
+</html>
