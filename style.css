@@ -314,3 +314,44 @@ body{
   opacity:0.9;
   border:1px solid #eee;
 }
+
+@media (max-width: 768px) {
+
+  .hero-content {
+    left: 20px;
+    right: 20px;
+    max-width: 100%;
+    transform: translateY(-50%);
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .arrows button {
+    width: 42px;
+    height: 42px;
+  }
+
+  .dots span {
+    width: 10px;
+    height: 10px;
+  }
+}
