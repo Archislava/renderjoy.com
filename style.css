@@ -355,3 +355,31 @@ body{
     height: 10px;
   }
 }
+.bottombar{
+  height:60px;
+  background:#000;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 40px;
+  position:relative;
+}
+
+.footer-left{
+  color:#fff;
+  font-size:12px;
+  letter-spacing:2px;
+}
+
+.footer-right{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.footer-right a{
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+  opacity:0.7;
+}
