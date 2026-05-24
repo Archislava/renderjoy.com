@@ -65,6 +65,7 @@ function render(){
 
   document.querySelector(".hero-content h1").innerText = t.heroTitle;
   document.querySelector(".hero-content p").innerText = t.heroSubtitle;
+  document.querySelector("[data-i18n='intro']").innerText = t.intro;
 
   document.querySelectorAll("[data-i18n='services']")[0].innerText = t.services;
   document.querySelectorAll("[data-i18n='process']")[0].innerText = t.process;
